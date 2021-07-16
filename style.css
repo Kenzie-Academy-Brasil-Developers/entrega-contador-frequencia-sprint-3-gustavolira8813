@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: cadetblue;
+    text-align: center;
+    
+}
+
+#lettersDiv, #wordsDiv{
+    background-color: blanchedalmond;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+span{
+    flex: 22%
+}
+#wordsDiv{
+    background-color: burlywood;
+}
+
